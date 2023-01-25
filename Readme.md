@@ -6,6 +6,10 @@ if you had permission problem run this command:
 
 ```chmod 755 <path_to_file>```
 
+the command usage:
+
+```./sshtunnel.sh username password```
+
 also sudo prefix is needed if you are not logged in with root user.
 
 you can use it on the restricted server, you can set your all_proxy environment variable to ```socks5h://127.0.0.1:<ssh_tunnel_local_port>```
